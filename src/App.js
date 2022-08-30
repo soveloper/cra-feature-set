@@ -3,8 +3,8 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import Main from "./routes/Main";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Main from "./routes/Main";
 
 function App() {
   return (

@@ -1,0 +1,19 @@
+.footer {
+  padding:10px 0;
+  border-top:1px solid #d9d9d9;
+  font-size:10px;
+  /* background-color:#f1f1f1; */
+  text-align:center;
+  color:#888;
+  background-color: #ecf6dd;
+}
+
+.contents {
+  display: flex;
+  width: 95%;
+  max-width: 1280px;
+  height: 100%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}

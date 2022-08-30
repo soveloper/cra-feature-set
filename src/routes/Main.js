@@ -1,6 +1,8 @@
 import { useEffect } from "react";
+import Header from "../components/layout/Header";
+import Footer from "../components/layout/Footer";
 import Arrive from "../components/Arrive";
-import Navigation from "../components/Navigation";
+import Navigation from "../components/layout/Navigation";
 
 function Main() {
   /* useEffect(() => {
@@ -12,10 +14,8 @@ function Main() {
 
   return (
     <div>
-      <div style={{margin:10}}>
-        <Navigation />
-        <Arrive />
-      </div>
+      adsds
+      <Footer />
     </div>
   );
 }

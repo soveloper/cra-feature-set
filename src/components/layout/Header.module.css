@@ -1,0 +1,23 @@
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  background-color: #ecf6dd;
+}
+
+.contents {
+  display: flex;
+  width: 95%;
+  max-width: 1280px;
+  height: 100%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.img {
+  width: 10%;
+  height: 10%;
+}
