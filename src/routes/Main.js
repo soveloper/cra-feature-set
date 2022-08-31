@@ -1,4 +1,6 @@
 import { useEffect } from "react";
+import styles from './Main.module.css';
+
 import Header from "../components/layout/Header";
 import Footer from "../components/layout/Footer";
 import Arrive from "../components/Arrive";
@@ -14,7 +16,10 @@ function Main() {
 
   return (
     <div>
-      adsds
+      <Header />
+      <div id={styles.wrapper}>
+        adfadsfasfasd
+      </div>
       <Footer />
     </div>
   );
